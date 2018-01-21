@@ -22,7 +22,6 @@ module.exports = {
   'babel-plugin-transform-es2015-computed-properties': require('babel-plugin-transform-es2015-computed-properties'),
   'babel-plugin-check-es2015-constants': require('babel-plugin-check-es2015-constants'),
   'babel-plugin-transform-es2015-destructuring': require('babel-plugin-transform-es2015-destructuring'),
-  'babel-plugin-transform-es2015-modules-commonjs': require('babel-plugin-transform-es2015-modules-commonjs'),
   'babel-plugin-transform-es2015-parameters': require('babel-plugin-transform-es2015-parameters'),
   'babel-plugin-transform-es2015-shorthand-properties': require('babel-plugin-transform-es2015-shorthand-properties'),
   'babel-plugin-transform-es2015-spread': require('babel-plugin-transform-es2015-spread'),

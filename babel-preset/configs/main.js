@@ -31,11 +31,7 @@ const getPreset = (src, options) => {
     'transform-es2015-shorthand-properties',
     'transform-flow-strip-types',
     'transform-react-jsx',
-    'transform-regenerator',
-    [
-      'transform-es2015-modules-commonjs',
-      {strict: false, allowTopLevelThis: true},
-    ]
+    'transform-regenerator'
   );
 
   if (isNull || src.indexOf('async') !== -1 || src.indexOf('await') !== -1) {
